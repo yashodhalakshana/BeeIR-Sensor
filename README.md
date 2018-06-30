@@ -7,7 +7,7 @@ Arduino Library for BeeIR and all of other analog IR sensors. The Library can ou
 
 BeeIR           -> is class name. <br />
 bIR             -> is a new BeeIR object name. You can put your own name. <br />
-threshold_value -> is value marign between 1 and 0. <br />
+threshold_value -> is value margin between 1 and 0. <br />
 Sensor1 -8      -> Replace the analog pin which is you connected sensor panel <br />
 
 #### Get Sensor readings
