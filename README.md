@@ -32,6 +32,7 @@ Supply current : 200mA max <br />
 Analog Outputs : 8 <br />
 PCB Size : 77.00mm x 26.00mm <br />
 ### Stores
+>Buy original BeeIR sensor from our stores
 Manufacture : http://beefactory.lk/ <br />
 Online Store : http://duino.lk/ <br />
  
