@@ -1,6 +1,10 @@
+[![GoDoc](https://godoc.org/github.com/fatih/color?status.svg)](https://godoc.org/github.com/fatih/color) [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
+
 # BeeIR-Sensor Library
 
-Arduino Library for BeeIR and all of other analog IR sensors. The Library can output analog sensors values as a boolean values. the sensor values is greater than programmer provided threshold value then output is 1 and sensor value is minor than threshold value then output is 0.
+Arduino Library for BeeIR and all of other analog IR sensors. The Library can output analog sensors values as a boolean values. the sensor values is greater than programmer provided threshold value then output is 1 and sensor value is minor than threshold value then output is 0. <br />
+
+color.Cyan("Prints text in cyan.")
 
 ## Library methods
 #### Intialize library object
@@ -22,7 +26,7 @@ bIR.ReadSensor(1); // Read sensor 1 value
 
 ## BeeIR-Sensor
 
-BeeIR sensor is a TCRT5000 based 8 sensor array board. Which it is provides 8 analog outputs to user. BeeIR have a preset controller to the adjust IR led brightnes.
+BeeIR sensor is a TCRT5000 based 8 sensor array board. Which it is provides 8 analog outputs to user. BeeIR have a preset controller to the adjust IR led brightnes. And the LED is use as power indicator.
 ### Sensor Specs
 Model : BeeIR <br />
 IR sensor : TCRT5000 <br />
