@@ -16,13 +16,21 @@ Sensor1 -8      -> Replace the analog pin which is you connected sensor panel <b
 <br />
 the senosr_number is vari between 1-8. put the correct sensor number to senosr_number. <br />
 call this function in Arduino as following <br /><br />
-bIR.ReadSensor(1); // Read sensor 1 value
+bIR.ReadSensor(1); // Read sensor 1 value <br />
+Write full code as following
 
 ```cpp
-int main() {
-  int y = SOME_MACRO_REFERENCE;
-  int x = 5 + 6;
-  cout << "Hello World! " << x << std::endl();
+#include <BeeIR.h>
+
+BeeIR bIR(700, A0, A1, A2, A3, A4, A5, A6, A7);
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.print(bIR.ReadSensor(1));//Read Sensor 1 value
+  Serial.print(bIR.ReadSensor(2));//Read Sensor 2 value
+  //use this format to read other sensor data 
 }
 ```
 
