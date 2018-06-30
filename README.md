@@ -16,7 +16,7 @@ Sensor1 -8      -> Replace the analog pin which is you connected sensor panel <b
 <br />
 the senosr_number is vari between 1-8. put the correct sensor number to senosr_number. <br />
 call this function in Arduino as following <br /><br />
-bIR.ReadSensor(1); // Read sensor 1 value <br />
+bIR.ReadSensor(1); // Read sensor 1 value <br /><br />
 Write full code as following
 
 ```cpp
