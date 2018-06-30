@@ -32,9 +32,9 @@ Supply current : 200mA max <br />
 Analog Outputs : 8 <br />
 PCB Size : 77.00mm x 26.00mm <br />
 ### Stores
-Manufature : http://beefactory.lk/
-Online Store : http://duino.lk/
- <br />
+Manufature : http://beefactory.lk/ <br />
+Online Store : http://duino.lk/ <br />
+ 
 ![bee array front](https://user-images.githubusercontent.com/34935773/42123493-ba085c64-7c70-11e8-8f6e-3d8b62c1ea20.png)
 
 ![bee array back](https://user-images.githubusercontent.com/34935773/42123495-babdb00a-7c70-11e8-9eb8-110664e32b87.png)
