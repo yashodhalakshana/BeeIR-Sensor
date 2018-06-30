@@ -1,11 +1,6 @@
-[![GoDoc](https://godoc.org/github.com/fatih/color?status.svg)](https://godoc.org/github.com/fatih/color) [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
-
 # BeeIR-Sensor Library
 
 Arduino Library for BeeIR and all of other analog IR sensors. The Library can output analog sensors values as a boolean values. the sensor values is greater than programmer provided threshold value then output is 1 and sensor value is minor than threshold value then output is 0. <br />
-
-color.Cyan("Prints text in cyan.")
-
 ## Library methods
 #### Intialize library object
 > BeeIR bIR(threshold_value, Sensor1, Sensor2, Sensor3, Sensor4, Sensor5, Sensor6, Sensor7, Sensor8); <br />
