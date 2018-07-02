@@ -36,7 +36,7 @@ void loop() {
 
 ## BeeIR-Sensor
 
-BeeIR sensor is a TCRT5000 based 8 sensor array board. Which it is provides 8 analog outputs to user. BeeIR have a preset controller to the adjust IR led brightnes. And the LED is use as power indicator.
+BeeIR sensor is a TCRT5000 based 8 sensor array board. Which it is provides 8 analog outputs to user. BeeIR is support for Arduino,STM32, NodeMCU and any other development boards. And it is suitable for Hobby-tronics and robotics developments.  BeeIR have a preset controller to the adjust IR led brightnes. And the LED is use as power indicator.
 ### Sensor Specs
 Model : BeeIR <br />
 IR sensor : TCRT5000 <br />
