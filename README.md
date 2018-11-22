@@ -1,3 +1,4 @@
+[![HitCount](http://hits.dwyl.io/yashodhalakshana/BeeIR-Sensor.svg)](http://hits.dwyl.io/yashodhalakshana/BeeIR-Sensor)
 # BeeIR-Sensor Library
 
 Arduino Library for BeeIR and all of other analog IR sensors. The Library can output analog sensors values as a boolean values. the sensor values is greater than programmer provided threshold value then output is 1 and sensor value is minor than threshold value then output is 0. <br />
